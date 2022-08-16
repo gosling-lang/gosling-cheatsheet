@@ -1,0 +1,1 @@
+{"xDomain":{"interval":[1,100]},"tracks":[{"data":{"type":"json","values":[{"x":30,"xe":40,"y":10,"row":"a","color":"a","stroke":"a"},{"x":80,"xe":90,"y":80,"row":"b","color":"b","stroke":"b"}]},"mark":"rule","width":300,"height":160,"style":{"linkStyle":"elliptical"},"y":{"field":"y","type":"quantitative","domain":[0,100]},"strokeWidth":{"value":8}}]}

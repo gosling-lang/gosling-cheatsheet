@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/x+icon" href="/src/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/higlass@1.11.3/dist/hglib.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gosling Cheat Sheet</title>
+        <script>
+            tailwind.config = { darkMode: 'class' }
+        </script>
+        <style>
+            html, body, #root { width: 100%; height: 100%; }
+            textarea, code { font-family: 'Roboto Mono', Courier, monospace !important; }
+            /* To resolve style conflicts with Tailwind */
+            #gosling-component .gosling-component { height: auto !important; }
+        </style>
+    </head>
+    <body>
+        <script type="module" src="/src/main.tsx"></script>
+        <div id="root"></div>
+    </body>
+</html>
